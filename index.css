@@ -1,0 +1,70 @@
+body{
+	margin:0;
+	padding:0;
+	background: black;
+}
+
+
+.header{
+	background: #ca0000;
+	color:white;
+	text-align: center;
+	position: fixed;
+	top:0;
+	width: 100%;
+
+}
+
+#app-container{
+	margin: 70px auto;
+	width: 80%;
+	background:  lightgray;
+}
+
+#app-container #search{
+	display: flex;
+	justify-content:center;
+
+}
+
+#app-container #search form{
+	display: flex;
+	margin-top:20px;
+	
+}
+#app-container #search form input[type="text"]{
+	padding:10px;
+	text-align:  center;
+	width:300px;
+	
+}
+
+#app-container #search form button{
+	padding:4px;
+	margin-left:10px;
+	cursor: pointer;
+
+}
+
+
+
+#app-container #tv-shows-container{
+	padding:10px 0;
+}
+
+#app-container #tv-shows-container .tv-show{
+	background:  white;
+	margin:15px auto;
+	width: 90%;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+
+#app-container #tv-shows-container .tv-show figure{
+	float: left;
+
+}
+
+
+
